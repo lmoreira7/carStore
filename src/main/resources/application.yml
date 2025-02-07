@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: carStore
+  datasource:
+    url: jdbc:mariadb://localhost:3307/cars
+    username: root
+    password: ""
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDB106Dialect
+    hibernate:
+      ddl-auto: update
